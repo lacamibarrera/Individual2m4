@@ -36,6 +36,6 @@ function Impuesto(_calcularImpuestos) {
 
 
 
-console.log(`Impuesto Cliente :  ${this._nombreCliente}  Monto Bruto Anual:    ${this._edad}  Deducciones :    ${this._deducciones}   Total Impuestos : ${this._calcularImpuestos}`)
+console.log(`Impuesto Cliente :  ${this._nombreCliente}  Monto Bruto Anual:    ${this._monto_bruto_anual}  Deducciones :    ${this._deducciones}   Total Impuestos : ${this._calcularImpuestos}`)
 
 //monto bruto y deducciiones estan en pagina impuestos.
