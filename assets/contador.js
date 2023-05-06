@@ -17,7 +17,7 @@ class Contador {
     }
 
 // cam: se supone que esto me deberia iniciar un contador, pero no se sin me funciona
-//busque la info y creo que asi no deberia mostrar algo en pantalla
+//busque la info y creo que asi nos deberia mostrar algo en pantalla
 //intente pasarlo a un html sin enchular, lo mismo para el Decremento, se deberia iniciar
 // apretando el boton "Incrementar o Decrementar" y agregue un boton para que detenga 
 // el contador   
