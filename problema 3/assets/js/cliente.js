@@ -10,7 +10,7 @@ function Cliente(nombre,monto_bruto_anual,deducciones,impuestos) {
 
 
 
-Object.defineProperty(),{
+Object.defineProperty(),{  // me tira error en consola.
     set: function(nuevoCliente){
         this._nombreCliente = nuevoCliente;
     },
