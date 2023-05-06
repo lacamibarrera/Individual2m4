@@ -1,14 +1,20 @@
 //cliente 
 
-Cliente(nombre){
-    this.nombre= nombre;
-};
-ObjectImpuesto(impuesto){
-    this.impuesto = ((monto_bruto_anual - deducciones)* 0.25 +"%")
-};
+function Cliente(nombre) {
+    this._nombreCliente = nombre;
 
-get nombre();
-set nombre();
+  
+}
 
-calcularImpuestos();
+Object.defineProperty(Cliente.prototype,'prueba',{
+    set: function(nuevoCliente){
+        this._nombreCliente = nuevoCliente;
+    },
+    get: function(){
+        return this._cliente
+    }
+})
 
+function(calcularImpuestos){
+    
+}
