@@ -67,3 +67,6 @@ class Contador {
   setInterval(() => {
     valorElement.textContent = contador.valor;
   }, 100);
+
+
+  
